@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Hoang Quan Dinh
+# FILENAME: knn.py
+# SPECIFICATION: knn
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 45min
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM
@@ -71,6 +71,7 @@ for i in db:
 #--> add your Python code here
 errorRate = (total - correct) / total
 print('The error rate is: ' + str(errorRate))
+
 
 
 
