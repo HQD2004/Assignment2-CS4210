@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Hoang Quan Dinh
+# FILENAME: decision_tree_2.py
+# SPECIFICATION: Decision tree with accuracy
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 1hr
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM
@@ -81,6 +81,7 @@ for ds in dataSets:
     #Your output should be something like that: final accuracy when training on contact_lens_training_1.csv: 0.2
     #--> add your Python code here
     print('final accuracy when training on' + ds + ':' + str(accuracy))
+
 
 
 
